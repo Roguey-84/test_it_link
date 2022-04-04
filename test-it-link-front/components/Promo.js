@@ -11,7 +11,7 @@ export default function Promo() {
         <Link href='/posts'>
           <a className='btn btn-lg btn-light me-3'>Читать статьи</a>
         </Link>
-        <Link href='/create'>
+        <Link href='posts/create'>
           <a className='btn btn-lg btn-outline-light'>Написать статью</a>
         </Link>
       </div>
