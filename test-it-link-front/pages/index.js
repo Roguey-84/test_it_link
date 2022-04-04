@@ -1,4 +1,5 @@
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout';
+import Maintemplate from '@/components/Maintemplate';
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       title='ИТ-Блог | Главная страница'
       description='Добро пожаловать! Давайте делиться интересными статьями'
     >
-      <h1 className='text-primary'>Главная</h1>
+      <Maintemplate />
     </Layout>
   );
 }
