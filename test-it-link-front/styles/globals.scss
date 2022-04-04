@@ -1,0 +1,58 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+$primary-color: #8833e4;
+
+.bg-purple {
+  background-color: #8833e4;
+}
+.bg-light-op {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: #5507e0;
+    border-color: #5507e0;
+  }
+}
+
+input:invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.header-promo {
+  background: linear-gradient(45deg, #8833e4, #5507e0);
+  color: #fff;
+  padding: 0 1.5rem 0.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  min-height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.5;
+
+  h1 {
+    margin: 2.5rem 0;
+  }
+}
+
+.post-block {
+  p {
+    line-height: 2;
+    margin: 2rem 0;
+    font-size: 1.35rem;
+  }
+}
